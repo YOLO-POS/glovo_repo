@@ -6,7 +6,7 @@ from pyrogram import Client
 glovo_userbot = Flask(__name__)
 
 # Замените этот секрет на ваш секрет
-client_secret = '5a7614893783e6a1ada3ce226af2cc9a'
+client_secret = '5a7614893783e6a1ada3ce226af2cc9a' 
 
 @glovo_userbot.route('/webhook', methods=['POST'])
 def webhook():
